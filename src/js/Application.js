@@ -10,7 +10,7 @@ export default class Application extends EventEmitter {
 
     constructor() {
         super();
-        this._loading = document.querySelector("progress");
+        this._loading = document.querySelector(".progress");
         this._startLoading();
 
         this.arr = [];
